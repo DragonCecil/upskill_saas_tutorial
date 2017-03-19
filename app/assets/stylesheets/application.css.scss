@@ -14,8 +14,13 @@
  *= require_self
  */
 
+// Imports Twitter Bootstrap library for front-end UI and layout
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
+
+// Imports Font Awesome sass gem for adding icons
+@import 'font-awesome-sprockets';
+@import 'font-awesome';
 
 // Typography Stlyes
 h1, h2, h3 {
